@@ -15,7 +15,7 @@ https://besu.hyperledger.org/en/stable/HowTo/Configure/FreeGas/
 install dependencies: 
 
 ```sh
-npm install]
+npm install
 ```
 
 Compile Contracts:
@@ -56,7 +56,7 @@ besu --data-path=data --genesis-file=../genesis.json --bootnodes=<Enode URL>   -
 ## Run DAPP
 
 Import private key to your metamask account from `truffle-config.js`
-
+Then migrate truffle and run the Dapp
 ```sh
 truffle migrate --network besuWallet
 npm run dev
