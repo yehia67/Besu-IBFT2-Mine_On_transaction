@@ -27,7 +27,7 @@
         "eslint": "^4.19.1",
         "eslint-config-standard": "^10.2.1",
         "eslint-plugin-import": "^2.20.1",
-        "eslint-plugin-node": "^5.2.1",
+        "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^3.8.0",
         "eslint-plugin-standard": "^3.1.0",
         "ethereumjs-util": "^5.2.0",
@@ -40,10 +40,10 @@
         "solium": "^1.2.5",
         "truffle": "5.0.2",
         "truffle-contract": "^3.0.8",
-        "truffle-hdwallet-provider": "0.0.5"
+        "truffle-hdwallet-provider": "1.0.17"
     },
     "dependencies": {
-        "@truffle/hdwallet-provider": "^1.0.33",
+        "@truffle/hdwallet-provider": "^1.7.0",
         "hyperledger-besu-ethers": "github:PegaSysEng/hyperledger-besu-ethers"
     }
 }
